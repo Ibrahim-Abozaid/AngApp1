@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    @for(product of list ; track $index){
+    <div class="col-md-3 border pt-2">
+      <img [src]="product.image" class="w-100" alt="" />
+      <p>name : {{ product.name }}</p>
+      <p>price : {{ product.price }}</p>
+      <p>cat : {{ product.cat }}</p>
+    </div>
+    }
+  </div>
+</div>
+

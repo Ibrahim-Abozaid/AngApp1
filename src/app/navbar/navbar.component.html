@@ -1,0 +1,88 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top px-5">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-1 text-white" href="#">SART FRAMEWOEK</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" routerLinkActive = "fw-bold bg-primary rounded text-white" routerLink="about">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" routerLinkActive = "fw-bold bg-primary rounded text-white" routerLink="portfolio">PORTFOLIO</a></li>
+        <li class="nav-item"><a class="nav-link" routerLinkActive = "fw-bold bg-primary rounded text-white" routerLink="contact">CONTACT</a></li>
+        <li class="nav-item"><a class="nav-link" routerLinkActive = "fw-bold bg-primary rounded text-white" routerLink="products">PRODUCTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<!-- <section>
+  <div class="portpolio">
+    <div class="container">
+      <div class="title">
+        <h1 class="text-uppercase m-2 text-center fw-bold">
+          portfolio component
+        </h1>
+        <div class="content d-flex justify-content-center">
+          <div class="before fw-bold"></div>
+          <div class="icon">
+            <i class="fa-solid fa-star ms-2 me-2 fw-bold"></i>
+          </div>
+          <div class="after fw-bold"></div>
+        </div>
+      </div>
+
+      <div class="row g-5 mt-4">
+        @for (image of images; track $index) {
+
+        <div class="col-md-4">
+          <div class="item">
+            <div
+              (click)="currentImage = image"
+              class="image"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <img class="rounded" [src]="image" alt="Not Found" width="100%" />
+              <div class="layer">
+                <i class="text-white fa-solid fa-plus fa-6x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Modal -->
+<!-- <div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-body">
+      <img [src]="currentImage" alt=" Not Found Image" width="600px" />
+    </div>
+  </div>
+</div> -->
+

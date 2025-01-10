@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    @for(x of productList ; track $index){
+    <div class="col-md-3 border pt-2">
+      <app-card [product]="x"></app-card>
+    </div>
+    }
+  </div>
+</div>
+
+<button #h2 class="btn btn-dark text-center my-3 w-50 d-block mx-auto fs-3 p-2">
+  recommended products <i class="fa-solid fa-sort-down fs-2"></i>
+</button>
+
+@defer(on interaction(h2) ){
+<app-recomendedproducts></app-recomendedproducts>
+}

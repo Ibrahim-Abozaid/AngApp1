@@ -1,0 +1,8 @@
+
+.line{
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #000;
+}
+
